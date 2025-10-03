@@ -12,7 +12,7 @@ import './styles/NetflixStyles.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/my-vite-app'>
       <div className="netflix-app">
         <NetflixNavbar />
         <Routes>
